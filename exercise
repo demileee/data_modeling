@@ -1,3 +1,6 @@
+PART 1
+
+
 1  +------------------+  +-----------------------+
    | order            |  |    customer           |
    | / order number   |  |    / email            |
@@ -32,3 +35,59 @@
         / card number      / book_id
         / email            / patron_id
         / hold_id
+
+
+
+
+PART 2
+
+
+1  actor          role             play           director
+   / id           / id             / id           / id
+   / name         / description    / genre        / name
+   / age          / play_id        / director_id  / age
+   / sex
+   / experience
+
+2  breed    pet            petowner    vet         vetappointment
+   / id     / id           / id        / id        / id
+   / type   / name         / name      / name      / time
+            / age          / age       / age       / petowner_id
+            / sex          / vet_id    / location  / vet_id
+            / breed_id
+            / petowner_id
+
+3  restaurant   review           critic
+   / name       / id             / name
+   / type       / content        / age
+   / id         / date           /id
+                / critic_id         publication
+   chef         / publication_id    / id
+   / name                           / genre
+   / age
+   / restaurant_id
+   / id
+
+
+
+
+PART 3
+
+
+1    user       post          thread       forum
+     / id       / id          / id         / id
+     / name     / content     / name       / genre
+                / time        / user_id
+                / user_id     / forum_id
+                / thread_id
+
+2    patient       dentist     appointment
+     / id          / id        / id
+     / name        / name      / time
+     / age         / hours     / patient_id
+     / dentist_id
+
+3   user     ticket
+    / id     / id
+    / name   / event
+             / user_id
