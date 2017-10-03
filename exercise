@@ -91,3 +91,17 @@ PART 3
     / id     / id
     / name   / event
              / user_id
+
+
+
+
+
+PART 4
+
+1.  SELECT * FROM authors WHERE name = 'Kara Melton';  ##id was 8
+    SELECT * FROM articles WHERE author_id = 8;
+
+2.  SELECT * FROM provinces;  ##ont id was 14
+    SELECT * FROM cities WHERE province_id = 14;
+
+3.
