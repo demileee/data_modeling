@@ -1,0 +1,34 @@
+1  +------------------+  +-----------------------+
+   | order            |  |    customer           |
+   | / order number   |  |    / email            |
+   | / date           |  |    / mailing address  |
+   | / customer_id    |  |    / name             |
+   | / id             |  |    / id               |
+   +------------------+  +-----------------------+
+  +--------+ +---------------------+
+2 |person  | | residence           |
+  |/ id    | | / id                | +-------------------+
+  |/ name  | | / address year build| | country           |
+  |/ age   | | / person_id         | | / name            |
+  +--------+ | / city_id           | | / year founded    |
+   city      +---------------------+ | / national animal |
+   / id            province          +-------------------+
+   / name          / id
+   / year founded  / name
+   / province_id   / year founded
+                   / country_id
+
+
+
+3   author     book          hold
+    / id       / title       / id
+    / name     / isbn        / date placed
+               / author_id   / author_id
+               / id
+
+        patron             loan
+        / id               / due date
+        / name             / renewed?
+        / card number      / book_id
+        / email            / patron_id
+        / hold_id
